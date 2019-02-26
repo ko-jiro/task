@@ -1,0 +1,174 @@
+body{
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.container{
+  width: 920px;
+  margin: 0 auto;
+}
+
+.logo{
+  font-size: 32px;
+  background-color: #fff;
+  width: 920px;
+  margin: 0 auto;
+  padding: 30px 0;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.header-navigation{
+  width: 100%;
+  background-color: #333;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.header-navigation:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li{
+  float: left;
+  padding: 0 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.header-navigation li a{
+  color: #A3A3A3;
+  text-decoration: none;
+}
+
+.card-contents{
+  padding: 20px;
+  height: 150px;
+  display: block;
+}
+
+.left-contents{
+  width: 600px;
+  float: left;
+}
+
+.right-contents{
+  width: 320px;
+  float: left;
+}
+
+.footer-container{
+  background-color: #fff;
+  width: 920px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.footer-line{
+  width: 880px;
+  border-top: solid 4px #efefef;
+  margin: 0 auto;
+}
+
+.copyright{
+  width: 920px;
+  margin: 0 auto;
+  padding-top: 20px;
+  color: #777;
+  text-align: center;
+}
+
+.main:after{
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.main{
+  background-color: #fff;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.ogp{
+  float: left;
+  width: 33.3%;
+}
+
+.ogp-photo{
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.ymd-text{
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.article-title-text{
+  margin-bottom: 5px;
+  color: skyblue;
+  line-height: 25px;
+}
+
+.article-description-text{
+  font-size: 12px;
+}
+
+.right-card-contents1{
+  padding: 20px;
+  height: 100px;
+  display: block;
+}
+
+.new-article{
+  font-size: 30px;
+  font-weight: lighter;
+  color: dimgray;
+}
+
+.new-article-line{
+  width: 95%;
+  border-top: solid 2px #efefef;
+  margin: 0 auto;
+}
+
+.new-ogp{
+  float:left;
+  width: 55px;
+  height: 55px;
+}
+
+.new-article-ogp{
+  margin-top: 14px;
+  margin-bottom: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.new-article-ymd{
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.new-article-title{
+  color: skyblue;
+  margin: 0;
+}
+
+.right-card-contents2{
+  padding: 5px 20px;
+  height: 60px;
+  display: block;
+}
